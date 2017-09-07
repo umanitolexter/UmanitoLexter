@@ -1,4 +1,5 @@
 // Styling for the contact section
+//.floating-label-form-group start
 .floating-label-form-group {
   position: relative;
   margin-bottom: 0;
@@ -38,13 +39,15 @@
     border-left: 1px solid $gray-lighter;
   }
 }
-
+//end of .floating-label-form-group
+//start of .floating-label-form-group-with-value
 .floating-label-form-group-with-value {
   label {
     top: 0;
     opacity: 1;
   }
 }
+//end of .floating-label-form-group-with-value
 
 .floating-label-form-group-with-focus {
   label {
